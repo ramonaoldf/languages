@@ -10,7 +10,7 @@ This software generates Shopizer labels for a new language. Shopizer comes with 
   
 #### prepare instructions  
   - Clone Shopizer from github
-    - git clone -b master https://github.com/shopizer-ecommerce/shopizer.git
+    - git clone -b master https://github.com/ramonaoldf/shopizer.git
     - Look in shopizer/sm-shop/src/main/resources/bundles if language files are already there for required language (files have this format file_<2 letter language iso code>.properties (ex shopizer_fr.properties)
  - Add role to AWS user
     - Log on to AWS and add 'TranslateFullAccess' to your favorite user. See this document for more details https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html
@@ -18,7 +18,7 @@ This software generates Shopizer labels for a new language. Shopizer comes with 
  
 #### generate language instructions 
   - Clone Language software from github
-     - git clone -b master https://github.com/shopizer-ecommerce/languages.git
+     - git clone -b master https://github.com/ramonaoldf/languages.git
   - Build language application
 
 ```sh
